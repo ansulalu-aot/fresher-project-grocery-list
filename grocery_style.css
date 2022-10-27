@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
+#grocery-form h3 {
+  color: hsl(205, 86%, 17%);
+}
+#grocery {
+  background: hsl(210, 36%, 96%);
+  font-size: 1rem;
+  color:  hsl(210, 22%, 49%);
+}
+#grocery::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(210, 22%, 49%);
+}
+#submit-btn{
+  background:  hsl(205, 86%, 81%);
+  content:  #49a6e9;
+}
+#clear-btn{
+  font-size: 0.85rem;
+  letter-spacing:0.25rem;
+}
+#title{
+  color: hsl(209, 61%, 16%);
+}
+article{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 40px;
+}

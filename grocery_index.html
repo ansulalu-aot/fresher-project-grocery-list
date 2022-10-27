@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="grocery_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Grocery Bud</title>
+</head>
+<body> 
+    <div class="main-container mx-auto mt-5 shadow rounded" style="width: 40rem;">
+        <form class="container-fluid" id="grocery-form">
+            <p class="text-center pt-3" id="alert"></p>
+            <h3 class="text-center pt-5">Grocery Bud</h3>
+            <div class="input-group rounded my-5" id="form-control">
+                <input type="text" class="form-control" placeholder="e.g. eggs" aria-label="Username" id="grocery">
+                <button class="btn btn-outline-secondary" type="submit" id="submit-btn">Submit</button>
+            </div>
+        </form>
+        <div id="grocery-container">
+            <div id="grocery-list">
+            <!-- <article  class="d-flex align-items-center justify-content-between mx-5 my-5" id="grocery-items">
+                <p class="my-2" id="title">item</p>
+                <div class="d-flex gap-2 justify-content-end">
+                    <button class="btn" type="button" id="edit-btn"><i class="bi bi-pencil-square text-success"></i></button>
+                    <button class="btn" type="button" id="delete-btn"><i class="bi bi-trash-fill text-danger"></i></button>
+                </div>
+            </article> -->
+            </div>
+            <button class="btn text-danger d-grid mx-auto pb-4" type="clear" id="clear-btn">Clear Items</button>
+        </div>
+    </div>
+
+    <script src="grocery_main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</body>
+</html>
